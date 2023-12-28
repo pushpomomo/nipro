@@ -1,0 +1,635 @@
+/*commo start*/
+body{
+	font-family: 'lato', sans-serif;
+	font-family: 'roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#8e8e8e;
+	padding-top: 109px;
+}
+.c_paddind{
+    padding-top: 100px;
+	padding-bottom: 120px;
+}
+/*commo end*/
+/*header start*/
+header{
+	background-color: #ffffff;
+	padding: 20px 0;
+}
+.logo{
+	font-family: 'lato', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: #333333;
+    text-transform: uppercase;
+}
+.manu{}
+.manu ul li a{
+	font-size: 16px;
+    font-weight: 400 !important;
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+.manu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.manu ul li a:hover{
+	color: #000000;
+	transition: .3s;
+}
+/*header end*/
+/*search start*/
+.search-btn, .close-btn{
+	width: 40px;
+	height: 40px;
+	font-size: 15px;
+	color: #8e8e8e;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	transition: all 0.25s ease;
+	background-color: #ffffff;
+}
+.close-btn{
+	color: #000000;
+	z-index: -1;
+}
+.search-box{
+	width: 40px;
+	max-height: 40px;
+	padding: 15px;
+	border-radius: 25px;
+	background-color: #8e8e8e;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    transition: width 0.25s ease;
+}
+.search{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.active .search-box{
+    width: 250px;
+}
+.active .search-btn{
+	transform:translate(210px, 2px) scale(1.0);
+	background-color: transparent !important;
+}
+.active .close-btn{                        
+	z-index: 0;
+	transform:translate(250px, 2px);
+}
+.search-btn:hover{
+	color: #000000;
+	transition: .3s;
+}
+/*search end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	margin: 200px 0;
+}
+.b_content h2{
+	margin-bottom: 0;
+	font-family: 'lato', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	color: #ffffff;
+}
+.b_content p{
+	margin-bottom: 0;
+	padding: 55px 117px 60px 0;
+    color: #ffffff;
+    line-height: 30px;
+}
+.btn-c{
+	font-family: 'roboto', sans-serif;
+	font-weight: 500;
+	padding: 13px 32px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 1px solid #333333;
+    background-color: transparent;
+    transition: .3s linear;
+}
+.btn-learn{
+	border: 1px solid transparent;
+	background-color: #ffffff;
+    color: #333333;
+}
+.fa-solid{
+	padding-left: 16px;
+}
+.btn-c:hover{
+    background-color: #333333;
+    color: #ffffff;
+}
+.btn-learn:hover{
+	border: 1px solid #333333;
+	color: #ffffff;
+	background-color: #333333;
+}
+.button{
+	display: inline;
+	border: none;
+	text-transform: none;
+    background: transparent;
+}
+.bold{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+/*banner end*/
+/*welcome start*/
+.vertical-line{
+	margin: 0 auto;
+	width: 2px;
+	height: 50px;
+	background-color: #333333;
+}
+.common_text{
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    padding: 30px 0 45px;
+    text-transform: uppercase;
+}
+.w_text{
+	line-height: 30px;
+	padding: 0 77px;
+}
+/*welcome end*/
+/* service start */
+.sv_item{
+    margin-top: 120px;
+    position: relative;
+    transition: .3s linear;
+}
+.sv_icon{
+    font-size: 60px;
+    padding: 0 10px;
+    position: absolute;
+    background-color: #ffffff;
+    top: -30px;
+    left: 115px;
+}
+.sv_text{
+    padding: 30px;
+    border: 1px solid;
+}
+.sv_text h2{
+    margin: 55px 0 0;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.sv_hr{
+    margin: 16px auto;
+    width: 20%;
+}
+.sv_text p {
+    line-height: 28px;
+}
+.btn_sv {
+    margin: 25px 0 15px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    color: #8e8e8e;
+    border: none;
+    text-transform: uppercase;
+}
+.btn-c i{
+    margin-left: 10px;
+    
+}
+.sv_item:hover {
+    color: #333333;
+    border: 0px solid #333333;
+}
+.sv_item:hover .btn-c{
+    color: #333333;
+}
+/* service end */
+/* about start */
+.common_m{
+	margin-top: 100px;
+}
+.ab_img{}
+.about_text{
+    margin-left: 75px;
+}
+.about_us{
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+.about_1p{
+	line-height: 30px;
+}
+.about_2p{
+    line-height: 30px;
+    margin: 40px 0 40px;
+}
+.btn_a{}
+/* about end */
+/* recent work start */
+.recent_w{
+	margin-top: 120px ;
+    background-color: #f8f8f8;
+}
+.presentation{
+    margin-top: 55px;
+}
+.r_single:hover .r_img{
+    opacity: 25%;
+}
+.r_single{
+    position: relative;
+    transition: .3s linear;
+    margin-top: 25px;
+}
+.recent{
+    margin-right: 20px;
+    border: 0;
+}
+/*.recent ul li button active{
+    border: 1px solid #333333 !important;
+}*/
+.recent_1st_menu{
+    background-color: transparent;
+    color: #333333 !important;
+    border: 1px solid #333333 !important;
+}
+.recent li button{
+    background-color: transparent !important;
+    margin-right: 20px;
+    padding: 10px 10px;
+    color: #8e8e8e !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s linear;
+}
+.recent li button:hover{
+    color: #333333 !important;
+}
+.overlay i{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #ffffff;
+}
+.r_img{}
+.r_text{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    padding: 12px 30px;
+    background-color: #ffffff;
+}
+.r_single:hover .overlay i,
+.r_single:hover .r_text{
+    display: block;
+}
+.r_text h3{
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+/* recent work end */
+/*why choose nipro start*/
+
+.choose_f{
+    margin-top: 55px;
+    position: relative;
+    border-bottom: 2px solid #cccccc;
+    transition: .3s linear;
+}
+.c_icon{
+    position: absolute;
+    font-size: 48px;
+    left: 0;
+    top: -14px;
+}
+.c_h2{
+    margin-left: 60px;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.choose_p{
+    margin: 35px 0;
+    line-height: 30px;
+}
+ .choose_f:hover{
+    color: #333333;
+    border-bottom: 2px solid #333333;
+}   
+/*why choose nipro end*/
+/*who work with us start*/
+.work{
+    background-image: url(../images/worker_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.employee{
+    margin-top: 55px;
+    transition: .3s linear;
+}
+.name{
+    padding: 15px 30px 20px;
+    background-color: #ffffff;
+}
+.name h2{
+    font-family: 'lato',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.w_social_icon a i:hover{
+    color: #333333;
+    border-right: 1px solid #333333;
+}
+.employee:hover  li{
+    display: block;
+}
+/* overlay start */
+.w_social{
+    position: relative;
+}
+.w_social ul{
+    position: absolute;
+    bottom: 145px;
+    left: 0;
+    background-color: #ffffff;
+}
+.w_social ul li{
+    display: none;
+    text-align: center;
+    border-right: 1px solid transparent;
+    padding: 8px 8px;
+}
+.w_social ul a i{
+    font-size: 26px;
+    color: #8e8e8e;
+    transition: .3s linear;
+}
+.w_social ul li:hover{
+    background-color: #f8f8f8;
+    border-right: 1px solid #333333;
+}
+.w_social ul li:hover i{
+    color:#333;
+}
+/* overlay end */
+/*who work with us end*/
+/*best pricing start*/
+.price_s{
+    position: relative;
+    cursor: pointer;
+}
+.sp_title h3{
+    padding: 0 5px;
+    position: absolute;
+    top: -8px;
+    left: 34px;
+    font-family: 'lato',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+.price_list{
+    padding: 40px 45px;
+    border: 1px solid #cccccc;
+    transition: .3s linear;
+}
+.price_list:hover{
+    border: 1px solid #333333;
+}
+.price_list:hover .btn_sign{
+    color: #333333;
+    background-color: #f8f8f8;
+    border: 1px solid #333333;
+}
+.price_list h4{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.dolar_symbol{
+    margin-right: 8px;
+    font-size: 36px;
+    color: #333333;
+}
+.price_menu{
+    margin-bottom: 20px;
+}
+.dash_sym{
+    margin-right: 8px;
+}
+.btn_sign{
+    margin-top: 15px;
+    padding: 10px 42px;
+    color: #b8b8b8;
+    border: 1px solid #b8b8b8;
+}
+/*best pricing end*/
+/*html template start*/
+.tamplate{
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+.t_titel h2{
+    padding: 20px 0 0;
+    font-family: 'lato',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.btn_t{
+    padding: 12px 40px;
+}
+/*html template end*/
+/*deviser web information start*/
+.t_border{
+    border: 1px solid #cccccc;
+}
+.t_padding{
+    padding: 40px 30px;
+}
+.deviser_img{
+    position: relative;
+}
+.inverted_comma{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+.deviser_info{}
+.d_h2{
+    margin-bottom: 13px;
+    font-family: 'lato',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.co_p{
+    font-size: 18px;
+}
+.d_h3{
+    margin: 10px 0 20px;
+    font-size: 18px;
+    color: #333333;
+}
+.d_p1{
+    margin-bottom: 20px;
+}
+/*carousel button start*/
+.button_p{
+    padding-left: 30px;
+}
+.c_button{
+    writing-mode: vertical-rl;
+    padding: 40px 20px;
+    border: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.prev_btn{
+    margin-bottom: 64.5px;
+}
+.next_btn{
+    margin-top: 64.5px;
+}
+/*carousel button end*/
+/*deviser web information end*/
+/*contact us start*/
+.from_line{
+    padding: 95px 188px 0;
+    border: 1px solid #cccccc;
+}
+.con_title{
+    position: absolute;
+    top: -51px;
+    left: 172px;
+    background-color: #ffffff;
+    padding: 0 15px;
+}
+.input_info{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: .3s linear;
+    border: none;
+    padding: 10px 25px;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+}
+.input_info:focus{
+    border: none;
+    border-bottom: 1px solid #333 !important;
+    outline: 0;
+    box-shadow: none;
+}
+.text_padding{
+    padding-bottom: 55px;
+}
+::placeholder{
+    color: #8e8e8e !important;
+    transition: .3s linear;
+}
+:focus::placeholder{
+    color: #333333 !important;
+}
+.btn_send{
+    margin: 24px 0 40px;
+}
+/*contact us end*/
+/*footer start*/
+/*footer top start*/
+/*nipro title start*/
+footer{
+    background: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f_title{}
+.pd_top{
+    padding-top: 0px;
+}
+/*nipro title end*/
+/*nipro text start*/
+.fn_text p{
+    padding: 0 40px;
+    color: #ffffff;
+}
+/*nipro text end*/
+/*social media apps start*/
+.media_link li{
+    padding-right: 12px;
+}
+.media_link li:last-child{
+    padding-right: 0;
+}
+.media_link li a i{
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    transition: .3s linear;
+}
+.media_link li a i:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+/*social media apps end*/
+/*footer top end*/
+
+/*footer closing manu start*/
+.footer_close{
+    padding: 35px 0;
+    border-top: 1px solid #cccccc;
+}
+.manu_text p{
+    color: #ffffff;
+}
+.web_link ul li{
+    margin-left: 25px;
+}
+.web_link ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*footer closing manu end*/
+/*footer end*/

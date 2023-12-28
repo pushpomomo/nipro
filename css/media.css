@@ -1,0 +1,737 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* logo*/
+.logo{
+     font-size: 20px;
+ }
+ .b_content{
+    margin: 98px 0;
+}
+/*banner start*/
+.b_content h2{
+    font-size: 27px;
+}
+.b_content p {
+    padding: 35px 0px 35px 0;
+    text-align: center;
+}
+.btn-c{
+    padding: 10px 14px;
+    margin-left: 19px;
+}
+
+/*welcome start*/
+.vertical-line{
+    height: 35px;
+}
+.common_text{
+    font-size: 25px;
+}
+.w_text{
+   padding: 0 12px;
+}
+/* service start */
+.sv_icon{
+   left: 110px;
+   font-size: 50px;
+}
+.sv_text{
+    padding: 11px;
+}
+.sv_item{
+    margin-top: 60px;
+}
+/* about start */
+.ab_img{
+    margin: 20px;
+}
+.common_m{
+    margin-top: 30px;
+}
+.about_us{
+   font-size: 25px;
+   padding-bottom: 25px;
+}
+.about_text{
+   margin-left: 0;
+   text-align: center;
+}
+.about_2p{
+   margin: 20px 0 35px;
+}
+
+/* recent work start */
+.recent_w{
+    margin-top: 64px;
+}
+.presentation{
+    margin-top: 15px;
+}
+.recent li button{
+    margin-right: -4px;
+    padding: 5px 5px;
+}
+/*why choose nipro start*/
+
+}
+.c_h2{
+    font-size: 17px;
+}
+.choose_f{
+    margin-top: 30px;
+}
+.choose_p{
+    text-align: center;
+}
+.c_icon{
+   font-size: 40px;
+}
+.choose_p{
+    margin: 20px 10px 30px 0px;
+}
+/*who work with us start*/
+.employee{
+    margin-top: 27px;
+}
+.name{
+    padding: 6px 18px 6px;
+}
+.name h2{
+    font-size: 16px;
+}
+.mb-0 {
+    padding-right: 127px;
+}
+.work{
+    padding-bottom: 60px;
+}
+.dolar_symbol{
+   font-size: 30px;
+}
+.price_list{
+    padding: 33px 28px;
+}
+.price_menu{
+    margin-bottom: 10px;
+}
+.t_titel h2{
+   font-size: 16px;
+}
+.price_s{
+   margin-bottom: 40px;
+}
+/*html template start*/
+.tamplate{
+   margin-bottom: 50px;
+}
+/*deviser web information start*/
+.deviser_img{
+   padding: 0 95px
+}
+.inverted_comma{
+   left: 109px;
+}
+.deviser_info {
+    margin-top: 21px;
+}
+.d_h2{
+   padding: 0 171px;
+}
+.co_p{
+   padding: 0 145px;
+}
+.d_h3{
+   padding: 0 175px;
+}
+.d_p1{
+   text-align: center;
+}
+.mb-0{
+   text-align: center;
+}
+.c_button{
+    text-align: center;
+    writing-mode: horizontal-tb;
+    padding: 19px 172px;
+}
+/*contact us start*/
+.con_title{
+    top: -47px;
+}
+.from_line{
+    padding: 95px 60px 0;
+}
+.input_info{
+    padding: 4px 8px;
+}
+
+.f_title{
+    margin-top: 50px;
+}
+/*footer start*/
+.fn_text p{
+    padding: 0;
+}
+.media_link li a i{
+    padding-top: 6px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+.manu_text {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* logo*/
+.logo{
+     font-size: 22px;
+ }
+ .b_content{
+    margin: 98px 0;
+}
+/*banner start*/
+.b_content h2{
+    font-size: 40px;
+}
+.b_content p{
+    padding: 55px 35px 60px 0;
+}
+.btn-c{
+    padding: 10px 30px;
+}
+/*welcome start*/
+.vertical-line{
+    height: 35px;
+}
+.common_text{
+    font-size: 26px;
+}
+.w_text{
+   padding: 0 12px;
+}
+/* service start */
+.sv_icon{
+   left: 85px;
+}
+.sv_text{
+    padding: 11px;
+}
+.sv_item{
+    margin-top: 60px;
+}
+/* about start */
+.ab_img{
+    margin: 72px;
+}
+.common_m{
+    margin-top: 30px;
+}
+.about_us{
+   font-size: 26px;
+   padding-bottom: 25px;
+}
+.about_text{
+   margin-left: 0;
+   text-align: center;
+}
+.about_2p{
+   margin: 20px 0 35px;
+}
+/* recent work start */
+.recent_w{
+    margin-top: 64px;
+}
+.presentation{
+    margin-top: 15px;
+}
+/*why choose nipro start*/
+.choose_f{
+    margin-top: 30px;
+}
+.choose_p{
+    margin: 20px 0;
+}
+.c_icon{
+   font-size: 40px;
+}
+.choose_p{
+    margin: 20px 10px 30px 0px;
+}
+/*who work with us start*/
+.employee{
+    margin-top: 27px;
+}
+.name{
+    padding: 10px 10px 10px;
+}
+.work{
+    padding-bottom: 60px;
+}
+.dolar_symbol{
+   font-size: 30px;
+}
+.price_list{
+    padding: 33px 28px;
+}
+.price_menu{
+    margin-bottom: 10px;
+}
+.t_titel h2{
+   font-size: 16px;
+}
+.price_s{
+   margin-bottom: 40px;
+}
+/*html template start*/
+.tamplate{
+   margin-bottom: 50px;
+}
+/*deviser web information start*/
+.deviser_img{
+   padding: 0 95px
+}
+.inverted_comma{
+   left: 109px;
+}
+.deviser_info {
+    margin-top: 21px;
+}
+.d_h2{
+   padding: 0 171px;
+}
+.co_p{
+   padding: 0 145px;
+}
+.d_h3{
+   padding: 0 175px;
+}
+.d_p1{
+   text-align: center;
+}
+.mb-0{
+   text-align: center;
+}
+.c_button{
+    text-align: center;
+    writing-mode: horizontal-tb;
+    padding: 19px 172px;
+}
+/*contact us start*/
+.con_title{
+    top: -47px;
+}
+.from_line{
+    padding: 95px 60px 0;
+}
+.input_info{
+    padding: 4px 8px;
+}
+
+.f_title{
+    margin-top: 50px;
+}
+/*footer start*/
+.fn_text p{
+    padding: 0;
+}
+.media_link li a i{
+    padding-top: 6px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+.manu_text {
+    margin-bottom: 10px;
+}
+
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.logo{
+    font-size: 27px;
+}
+/*welcome start*/
+.vertical-line{
+    height: 45px;
+}
+.common_text{
+    font-size: 28px;
+    padding: 25px 0 35px;
+}
+.b_content{
+    margin: 120px 0 75px;
+}
+.b_content h2{
+     font-size: 45px;
+}
+.b_content p{
+    padding: 40px 67px 40px 0;
+}
+.btn-c{
+   padding: 10px 15px;
+}
+/*welcome paragraph start*/
+.w_text{
+    padding: 0;
+}
+/*service start*/
+.sv_item{
+    margin-top: 70px;
+}
+.sv_icon{
+    left: 101px;
+}
+.sv_text{
+    padding: 0px 9px;
+}
+/*about us start*/
+.common_m{
+    margin-top: 70px;
+}
+.about_us{
+    padding-bottom: 16px;
+}
+.ab_img {
+    padding: 0px 100px;
+}
+.about_us{
+    font-size: 28px;
+    padding: 25px 263px;
+}
+.about_text{
+    margin-left: 0px;
+    padding: 0 16px;
+}
+.about_2p{
+    margin: 13px 0 11px;
+}
+.btn_a{
+    margin: 20px 246px;
+}
+/*recent work start*/
+.recent_w{
+    margin-top: 60px;
+}
+.presentation{
+    margin-top: 0;
+}
+/*why choose nipro start*/
+.choose_f{
+    margin-top: 25px;
+}
+.c_icon{
+    font-size: 44px;
+.choose_p{
+    margin: 25px 0;
+}
+/*who work with us start*/
+
+.employee{
+    margin-top: 45px;
+}
+.name{
+    padding: 15px 6px 11px;
+}
+/*best pricing start*/
+.price_list h4{
+    margin-bottom: 30px;
+}
+.price_menu{
+    margin-bottom: 15px;
+}
+.price_list{
+    padding: 30px 13px;
+}
+.btn_sign{
+    padding: 10px 30px;
+}
+/*deviser web information start*/
+.deviser_img{
+    margin: 0 188px;
+}
+.d_h2{
+    margin-left: 70px;
+}
+.co_p{
+    margin-left: 70px;
+}
+.d_h3{
+    margin-left: 70px;
+}
+.d_p1{
+    margin-left: 70px;
+    margin-bottom: 12px;
+}
+.d_p2{
+    margin-left: 70px;  
+}
+.c_button{
+    padding: 24px 20px;
+}
+.c_button{
+    text-align: center;
+    writing-mode: horizontal-tb;
+}
+/*contact us start*/
+.con_title{
+    left: 250px;
+}
+.from_line{
+    padding: 73px 188px 0;
+}
+.btn_send{
+    margin: 30px 0 35px;
+}
+.btn-c{
+      padding: 13px 30px;
+}
+/*footer closing manu start*/
+.fn_text p{
+    padding: 0 18px
+}
+.web_link ul li{
+    margin-left: 0;
+}
+.web_link ul li a{
+    margin-right: 10px;
+}
+
+
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner start*/
+.b_content p{
+    padding: 55px 57px 60px 0;
+}
+/*welcome paragraph start*/
+.w_text{
+    padding: 0 1px
+}
+/*service start*/
+.sv_item{
+    margin-top: 90px;
+}
+.sv_icon{
+    left: 72px;
+}
+.sv_text{
+    padding: 8px;
+}
+/*about us start*/
+.about_us{
+    padding-bottom: 12px;
+}
+.about_text{
+    margin-left: 0;
+}
+.about_2p{
+    margin: 0 0 11px;
+}
+.btn_a{
+    margin: 19px -34px;
+}
+/*recent work start*/
+.recent_w{
+    margin-top: 65px;
+}
+.presentation{
+    margin-top: 45px;
+}
+/*why choose nipro start*/
+.choose_f{
+    margin-top: 35px;
+}
+/*who work with us start*/
+.common_m{
+    margin-top: 90px;
+}
+.employee{
+    margin-top: 45px;
+}
+.name{
+    padding: 15px 6px 11px;
+}
+/*best pricing start*/
+.price_list h4{
+    margin-bottom: 30px;
+}
+.price_menu{
+    margin-bottom: 15px;
+}
+.price_list{
+    padding: 30px 13px;
+}
+.btn_sign{
+    padding: 10px 30px;
+}
+/*deviser web information start*/
+.t_padding{
+    padding: 20px 25px;
+}
+.d_h2{
+    margin-left: 70px;
+}
+.co_p{
+    margin-left: 70px;
+}
+.d_h3{
+    margin-left: 70px;
+}
+.d_p1{
+    margin-left: 70px;
+    margin-bottom: 12px;
+}
+.d_p2{
+    margin-left: 70px;  
+}
+.c_button{
+    padding: 24px 20px;
+}
+/*contact us start*/
+.con_title{
+    left: 89px;
+}
+.from_line{
+    padding: 73px 188px 0;
+}
+.btn_send{
+    margin: 30px 0 35px;
+}
+.btn-c{
+      padding: 13px 30px;
+}
+/*footer closing manu start*/
+.fn_text p{
+    padding: 0 18px
+}
+.web_link ul li{
+    margin-left: 0;
+}
+.web_link ul li a{
+    margin-right: 10px;
+}
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*banner start*/
+.b_content p{
+    padding: 55px 118px 60px 0;
+}
+/*welcome paragraph start*/
+.w_text{
+    padding: 0;
+}
+/*service start*/
+.sv_item{
+    margin-top: 90px;
+}
+.sv_icon{
+    left: 90px;
+}
+.sv_text{
+    padding: 0px 9px;
+}
+/*about us start*/
+.about_us{
+    padding-bottom: 16px;
+}
+.about_text{
+    margin-left: 31px;
+}
+.about_2p{
+    margin: 13px 0 11px;
+}
+/*recent work start*/
+.recent_w{
+    margin-top: 100px;
+}
+/*who work with us start*/
+.common_m{
+    margin-top: 90px;
+}
+.employee{
+    margin-top: 30px;
+}
+.name {
+    padding: 15px 27px 20px;
+}
+/*best pricing start*/
+.price_list{
+    padding: 40px 28px;
+}
+/*deviser web information start*/
+.t_padding{
+    padding: 35px 28px;
+}
+.d_h2{
+    margin-left: 35px;
+}
+.co_p{
+    margin-left: 35px;
+}
+.d_h3{
+    margin-left: 35px;
+}
+.d_p1{
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.d_p2{
+    margin-left: 35px;  
+}
+.c_button{
+    padding: 34px 13px;
+}
+.button_p{
+    padding-left: 23px;
+}
+/*form start*/
+.from_line{
+    padding: 38px 155px 0;
+}
+.con_title{
+    left: 129px;
+}
+/*footer closing manu start*/
+.fn_text p{
+    padding: 0 8px
+}
+.con_title{
+    left: 87px;
+}
+
+.web_link ul li{
+    margin-left: 12px;
+}
+
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
